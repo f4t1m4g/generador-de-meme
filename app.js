@@ -257,6 +257,10 @@ window.addEventListener('resize',() => {
   $('#meme').style.height = `${$('#meme').getBoundingClientRect().width}px`;
 })
 
+window.addEventListener("load", () => {
+  $('#meme').style.height = `${$('#meme').getBoundingClientRect().width}px`;
+})
+
 //DESCARGAR MEME//
 
 const descargarMeme = () => {
